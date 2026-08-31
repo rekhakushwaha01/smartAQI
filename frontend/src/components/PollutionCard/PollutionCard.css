@@ -1,0 +1,38 @@
+.pollution-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.pollution-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.pollution-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.pollution-value {
+  font-size: 0.875rem;
+  color: var(--good);
+}
+
+.pollution-value--high {
+  color: var(--unhealthy);
+}
+
+.pollution-bar {
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.pollution-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
