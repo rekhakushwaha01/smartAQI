@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { MAHARASHTRA_CITIES } from '../utils/constants';
 
-const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
+
+const GOOGLE_API_KEY = 'AIzaSyAY2BA8_zkFzysRShBi_rTSVXD9Ghy5IPM';
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 const mockDoctors = {
