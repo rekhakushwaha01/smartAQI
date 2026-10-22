@@ -1,0 +1,37 @@
+.aqi-card {
+  border-left: 4px solid var(--aqi-color, var(--accent));
+}
+
+.aqi-card-body {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.aqi-value {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--aqi-color, var(--text-primary));
+}
+
+.aqi-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.aqi-level {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.aqi-location {
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+}
+
+.aqi-time {
+  color: var(--text-secondary);
+  font-size: 0.8125rem;
+}
