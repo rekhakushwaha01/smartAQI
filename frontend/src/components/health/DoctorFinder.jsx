@@ -65,7 +65,7 @@ export default function DoctorFinder({ isOpen, onClose, cityKey, profile }) {
                   Recommended: <strong>{result.specialty}</strong>
                   {result.source === 'mock' && (
                     <span className="block mt-1 text-xs text-blue-600">
-                      Set VITE_GOOGLE_MAPS_API_KEY for live Google Places results
+                      
                     </span>
                   )}
                 </p>

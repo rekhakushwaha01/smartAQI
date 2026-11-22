@@ -62,7 +62,7 @@ export default function CombinedResults() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
           <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div>
-              <h1 className="text-3xl font-extrabold text-slate-900">Air + Health Report</h1>
+              <h1 className="text-3xl font-extrabold text-slate-900">Personalized Respiratory Health Risk Dashboard</h1>
               <p className="mt-1 text-slate-500">
                 {assessment.profile.name || 'User'} · {cityLabel}, {location.area}
               </p>

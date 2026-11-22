@@ -99,7 +99,11 @@ export function downloadHealthReport({ profile, assessment, aqiData, weather, lo
 ${comparison.map((r) => `<tr><td>${r.metric}</td><td>${r.ideal}</td><td>${r.yours}</td><td class="${r.status}">${r.status.toUpperCase()}</td></tr>`).join('')}
 </table>
 <h2>Health Assessment Results</h2>
+<<<<<<< HEAD
 <p><strong>Risk Score:</strong> ${assessment.riskScore}% (${assessment.riskCategory?.label || assessment.riskCategory})</p>
+=======
+<p><strong>Risk Score:</strong> ${assessment.riskScore}% (${assessment.riskCategory.label})</p>
+>>>>>>> b1064f3a7c228549d19c4c7d0f11a5969207a128
 <p><strong>Health Score:</strong> ${assessment.healthScore}/100</p>
 <p>${assessment.aiExplanation}</p>
 <h2>Recommendations</h2>

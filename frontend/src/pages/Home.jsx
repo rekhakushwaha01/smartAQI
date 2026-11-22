@@ -34,7 +34,8 @@ export default function Home() {
           className="text-center"
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-white/60 px-5 py-2.5 text-sm font-semibold text-blue-600 backdrop-blur-xl">
-            Final Year Project · Maharashtra Focus
+          Urban Air Quality Index-Based Respiratory Health Risk Prediction
+
           </div>
 
           <h1 className="text-5xl font-extrabold tracking-tight text-slate-900 md:text-7xl">

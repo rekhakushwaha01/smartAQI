@@ -32,14 +32,7 @@ export default function NearbyCareList({ cityKey, profile }) {
 
   return (
     <div>
-      <p className="mb-4 rounded-2xl bg-blue-50 px-4 py-3 text-sm text-blue-800">
-        Recommended specialty for you: <strong>{result.specialty}</strong>
-        {result.source === 'mock' && (
-          <span className="mt-1 block text-xs text-blue-600">
-            Live Google Places list appears when VITE_GOOGLE_MAPS_API_KEY is set. Meanwhile showing nearby specialists for your city.
-          </span>
-        )}
-      </p>
+     
       <div className="grid gap-3 md:grid-cols-2">
         {result.doctors.map((doc, i) => (
           <div key={i} className="rounded-2xl border border-slate-100 bg-white/80 p-4">
